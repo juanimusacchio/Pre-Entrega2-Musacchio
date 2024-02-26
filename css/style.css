@@ -230,12 +230,14 @@ h2:hover {
   width: 40px;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .footer6 {
   grid-area: footer6;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 
