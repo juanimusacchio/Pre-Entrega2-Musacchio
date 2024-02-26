@@ -379,6 +379,11 @@ label {
     font-size: 15px;
   }
 
+  .header nav a img {
+    width: 300px;
+
+  }
+
   .grid, .grid1, .remera, .remeras2 {
     display: block
   }
