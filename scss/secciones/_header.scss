@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: end;
+    background-color: rgba(187, 187, 165, 0.229);
+
+
+    a img {
+        width: 150px;
+    }
+
+
+    ul {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        text-align: center;
+
+        li a {
+
+            padding: 0 1rem;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            &:hover{
+                background-color: rgba(129, 107, 107, 0.776);
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+                transition: all .4s;
+            }
+        }
+    }
+}

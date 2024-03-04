@@ -1,0 +1,124 @@
+.banner-promo img {
+      width: 5px;
+}
+  
+
+
+.grid {
+    padding-left: 50px;
+    padding-block: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr;
+    gap: 0px 33px;
+    grid-auto-flow: row;
+    grid-template-areas:
+  
+      "producto1 producto2 producto3";
+
+      .producto1 {
+        grid-area: producto1;
+
+      }
+
+      .producto2 {
+        grid-area: producto2;
+      }
+      
+      .producto3 {
+        grid-area: producto3;
+      }
+}
+
+
+ h2 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        font-weight: 400;
+        &:hover{
+            background-color: rgba(129, 107, 107, 0.776);
+            color: white;
+            transition: all .5s;
+        }
+      }
+
+.grid1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: 0, 5fr 0, 5fr 0, 5fr 0, 5fr;
+    grid-template-rows: 300px 125px;
+    gap: 0% 33px;
+    grid-auto-flow: row;
+    justify-content: stretch;
+    align-content: center;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas:
+      "promo1 promo2 promo3 promo4"
+      "descripcion1 descripcion2 descripcion3 descripcion4";
+  }
+  
+  .grid1 h4 {
+    color: dimgray;
+  }
+  
+  .descripcion1 {
+    grid-area: descripcion1;
+  }
+  
+  .descripcion2 {
+    grid-area: descripcion2;
+  }
+  
+  .descripcion3 {
+    grid-area: descripcion3;
+  }
+  
+  .descripcion4 {
+    grid-area: descripcion4;
+  }
+  
+  .promo1 {
+    grid-area: promo1;
+  }
+  
+  .promo1 img {
+  
+    width: 200px;
+    height: 300px;
+  }
+  
+  .promo2 {
+    grid-area: promo2;
+  }
+  
+  .promo2 img {
+    width: 200px;
+    height: 300px;
+  }
+  
+  .promo3 {
+    grid-area: promo3;
+  
+  }
+  
+  .promo3 img {
+    width: 200px;
+    height: 300px;
+  
+  }
+  
+  .promo4 {
+    grid-area: promo4;
+  
+  }
+  
+  .promo4 img {
+    width: 200px;
+    height: 300px;
+  }
+  
