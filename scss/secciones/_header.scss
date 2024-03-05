@@ -6,12 +6,15 @@
 
 
     a img {
-        width: 150px;
+        width: 200px;
+        justify-content: space-evenly;
+        text-align: center;
     }
+
     .banner-promo img {
         width: 100vw;
-  }
-    
+    }
+
 
 
     ul {
@@ -19,20 +22,27 @@
         list-style: none;
         flex-wrap: wrap;
         text-align: center;
+        justify-content: space-evenly;
 
-        li a {
 
-            padding: 0 1rem;
-            align-items: center;
-            text-decoration: none;
-            color: black;
-            &:hover{
-                background-color: rgba(129, 107, 107, 0.776);
-                color: rgb(255, 255, 255);
+        
+            a {
+
+                padding: 0 1rem;
+                text-align: right;
                 text-decoration: none;
-                transition: all .4s;
+                color: black;
+
+                &:hover {
+                    background-color: rgba(129, 107, 107, 0.776);
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                    transition: all .4s;
+                }
             }
-        }
+
+        
+
+
     }
 }
-
