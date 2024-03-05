@@ -273,7 +273,9 @@ label {
   .form {
     width: 100%;
     pad: 30px; }
-  .footer .footer1 .footer2 .footer3 .footer4 .footer5 {
+  .footer .footer2 .footer3 .footer4 .footer5 {
     font-size: 10px; }
+  .footer .footer1 {
+    font-size: 30ppx; }
   .footer h3 {
-    font-size: 15px; } }
+    font-size: 18px; } }
