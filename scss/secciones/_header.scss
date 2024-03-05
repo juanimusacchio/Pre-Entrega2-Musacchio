@@ -2,13 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: end;
     background-color: rgba(187, 187, 165, 0.229);
 
 
     a img {
         width: 150px;
     }
+    .banner-promo img {
+        width: 100vw;
+  }
+    
 
 
     ul {
@@ -32,3 +35,4 @@
         }
     }
 }
+
