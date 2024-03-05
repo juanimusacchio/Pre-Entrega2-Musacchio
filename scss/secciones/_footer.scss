@@ -14,9 +14,8 @@
       "footer1 footer1 footer1 footer1"
       "footer2 footer3 footer4 footer5"
       "footer6 footer6 footer6 footer6";
-  
-  
-  .footer li {
+      
+      li {
     margin: 15px;
   }
   
@@ -49,20 +48,21 @@
     text-align: center;
   }
   
-  .footer6 img {
-    grid-area: footer6;
-    height: 40px;
-    width: 40px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
   
   .footer6 {
     grid-area: footer6;
     align-items: center;
     justify-content: center;
     text-align: center;
+    img {
+        grid-area: footer6;
+        height: 40px;
+        width: 40px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
   }
  }
 
@@ -79,6 +79,7 @@
       display: block;
   
     }
+
   
     .header nav ul {
       display: flex;
@@ -92,11 +93,12 @@
   
     .header nav a img {
       width: 300px;
+      justify-content: space-evenly;
   
     }
   
     .grid, .grid1, .remera, .remeras2 {
-      display: block
+      display: block;
     }
   
     .container {
@@ -114,7 +116,9 @@
     }
 
     .footer{
-        font-size: 10px;
+        .footer1 .footer2 .footer3 .footer4 .footer5 {
+            font-size: 10px;
+        }
         h3{
             font-size: 15px;
         }
