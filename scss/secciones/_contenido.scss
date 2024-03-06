@@ -27,7 +27,7 @@
 }
 
 
-h2 {
+h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
@@ -241,20 +241,20 @@ h2 {
     display: flex;
     flex-direction: column;
 
-}
+    h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
 
-.form h2 {
-    font-size: 30px;
-    margin-bottom: 25px;
-}
+    }
 
-.form p {
-    margin-bottom: 25px;
-}
+    p{
+        margin-bottom: 25px;
+    }
 
 label {
     margin-bottom: 15px;
 
+}
 }
 
 .box {
@@ -267,4 +267,25 @@ label {
     border: 0;
 
 
+}
+
+@media (max-width: 700px) {
+
+    .grid, .grid1, .remera, .remeras2 {
+        display: block;
+      }
+  
+    .container {
+      width: 50px;
+      height: 800px;
+    }
+  
+    .info {
+      display: none;
+    }
+  
+    .form {
+      width: 100%;
+      pad: 30px;
+    }
 }
