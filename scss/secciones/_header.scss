@@ -4,11 +4,22 @@
     align-items: center;
     background-color: rgba(187, 187, 165, 0.229);
 
-
     a img {
         width: 200px;
         justify-content: center;
         text-align: center;
+        animation-name: mover;
+        animation-duration: 4s;
+    }
+
+    @keyframes mover{
+
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(0);
+        }
         
     }
 

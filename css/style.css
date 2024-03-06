@@ -6,7 +6,15 @@
   .header a img {
     width: 200px;
     justify-content: center;
-    text-align: center; }
+    text-align: center;
+    animation-name: mover;
+    animation-duration: 4s; }
+
+@keyframes mover {
+  0% {
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0); } }
   .header .banner-promo img {
     width: 100vw; }
   .header ul {
